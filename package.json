@@ -1,0 +1,32 @@
+{
+  "name": "parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "preconfig parcel pllugins - ts and scss included",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve app/index.html",
+    "watch": "parcel watch app/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielFeliciano/parcel-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "parcel": "^2.0.0-beta.2",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "sass": "^1.32.13"
+  },
+  "bugs": {
+    "url": "https://github.com/GabrielFeliciano/parcel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/GabrielFeliciano/parcel-boilerplate#readme"
+}
